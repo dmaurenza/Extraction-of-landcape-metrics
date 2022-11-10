@@ -1,11 +1,11 @@
 ---
 title: "Extraction of landscape metrics"
-output: word_document
+output: html_document
 author:
 - Daniel Maurenza (Conceptualization, Validation, and Writing). Contact - dmaurenza@gmail.com 
 - Marina Schmoeller (Conceptualization, Programming, and Review)
 Contact: dmaurenza@gmail.com
-date: "November 1, 2022"
+date: "November 10, 2022"
 email: dmaurenza@gmail.com
 always_allow_html: true
 ---
@@ -481,6 +481,7 @@ head(final_table)
 write_csv(final_table, "Result/lsm.csv")
 
 ```
+
  
 
 We then have a table where each row represents a landscape of a class (forest or non-forest) and the columns represent landscape metrics for different buffer sizes.
