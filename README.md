@@ -1,2 +1,2 @@
 # Extraction-of-landcape-metrics
-Code to extract some landscape metrics
+Find the code in .rmd file
