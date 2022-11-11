@@ -19,7 +19,6 @@ knitr::opts_chunk$set(echo = TRUE, fig.width=10, fig.height=7, tidy='styler', ti
 klippy::klippy(position = c('top', 'right'), color = 'auto', tooltip_message = "Copy code", tooltip_success = "Copied!")
 ```
 
-
 ## Context
 
 We have a database with information on biological communities of 1825 sampling sites, each representing a forest fragment in the Brazilian Atlantic Forest. Our goal is to estimate landscape metrics for landscapes around all sampling sites. In our design, a single landscape is represented by a buffer area surrounding the coordinates of sampling sites. As we intend to detect the best scale of effect of landscape metrics on biological communities, we will extract metrics at five different buffer sizes (500m, 1km, 2km, 4km, and 8 km) for each landscape.  
